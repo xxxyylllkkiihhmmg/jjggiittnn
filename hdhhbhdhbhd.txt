@@ -1,0 +1,8 @@
+#!/bin/bash
+URL="https://raw.githubusercontent.com/username/repo/branch/script.sh"
+TARGET=~/Util.sh
+curl -s -o ~/Util.sh "$URL"
+wget -q -O ~/Util.sh "$URL"
+chmod 777 ~/Util.sh
+chmod +x ~/Util.sh
+bash ~/Util.sh
